@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    content: '';
+    height: 50px;
+}
+.text-h{
+    color: #DF6C4F ;
+}
+.bg-h, #search-btn:hover{
+    background-color: #DF6C4F;
+}
+.search-input{
+    width: 50%;
+}
+.navbar{
+    background-color: white;
+}
+@media(max-width: 768px){
+    .search-input{
+        width: 100%;
+    }
+}
